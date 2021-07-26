@@ -1,0 +1,58 @@
+      {/* <Typist  className='flex justify-center items-center text-center p-3 '>
+          <span> Hey,</span>
+        </Typist>
+        <Typist  className='flex justify-center items-center text-center p-3 '>
+          <Typist.Delay ms={1000} />
+          <span style={nameStyle} > I'm Tushar Goyal</span>
+        </Typist>
+        <Typist  className='flex justify-center items-center text-center p-3 '>
+          <Typist.Delay ms={3000} />
+          <span style={desStyle}> I'm Developer</span>
+          <Typist.Backspace count={9} delay={200} />
+          <span style={desStyle}> Web Developer.</span>     
+        </Typist> */}
+{/*         
+        <Typist  className='flex justify-center items-center text-center p-3 flex-col' cursor={cursorr}>
+          <span style={greetStyle}  > Hey, </span>
+          <span style={nameStyle} > I'm Tushar Goyal</span>
+          <span>
+          <span style={desStyle}> I'm Developer</span>
+          <Typist.Backspace count={9} delay={200} />
+          <span style={desStyle}> Web Developer.</span>     
+          </span>
+        </Typist>
+
+
+ */}
+
+      {/* <Keyboard sentenceDelayPerCharRange={[0, 0]}>
+            Hey,
+      </Keyboard> */}
+      {/* <Cursor  blinkAnimationDuration={200}/> */}
+      {/* <Keyboard sentenceDelayPerCharRange={[0, 0]} keyPressDelayRange={[50, 70]}>
+        {({ type }) => type(
+          1000,
+          "Hey,"
+          ) }
+      </Keyboard>
+
+      <Cursor></Cursor>
+      <br />
+      <Keyboard sentenceDelayPerCharRange={[0, 0]} keyPressDelayRange={[50, 70]}>
+        {({ type }) => type(
+          3000,
+          "I'm Tushar Goyal"
+          ) }
+      </Keyboard>
+      <br />
+      <Keyboard sentenceDelayPerCharRange={[0, 0]} keyPressDelayRange={[50, 70]}>
+        {({ type }) => type(
+            6000,
+            "I'm Web Developer"
+            // <Typist>
+            //   <span style={desStyle}> I'm Developer</span>
+            //   <Typist.Backspace count={9} delay={200} />
+            //   <span style={desStyle}> Web Developer.</span>     
+            // </Typist>
+            ) }
+      </Keyboard> */}

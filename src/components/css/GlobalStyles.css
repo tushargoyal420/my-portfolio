@@ -7,24 +7,33 @@
 }
 
 .sideheader{
+    /* background-color: rgba(153, 0, 255, 0.404); */
+    background-image: url('../images/bg42.png');
     /* background-image: url('../images/bg1.jpg'); */
     /* background-image: url('../images/bg2.jpg'); */
     /* background-image: url('../images/bg3.jpg'); */
     /* background-image: url('../images/bg4.png'); */
-    background-image: url('../images/bg42.png');
     /* background-image: url('../images/bg4.jpg'); */
     /* background-image: url('../images/bg5.jpg'); */
     /* background-position: bottom; */
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: 
-    -2px 2px 3px rgb(0, 247, 255);    
+    /* -2px 2px 3px rgb(0, 247, 255);     */
+    -2px 2px 3px red;    
 }
 
 
 
 .rightbar{
-    /* background-color: red; */
+    /* background-image: url('../images/darkwallpaper.jpg'); */
+    /* background-image: url('../images/bg42.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: bottom; */
+    /* background-color: white; */
     min-height: 100vh;
+
 }

@@ -9344,7 +9344,7 @@ quick-lru@^5.1.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-raf@^3.4.1:
+raf@^3.4.0, raf@^3.4.1:
   version "3.4.1"
   resolved "https://registry.npmjs.org/raf/-/raf-3.4.1.tgz"
   integrity sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA==
@@ -9495,6 +9495,13 @@ react-overlays@^5.0.1:
     prop-types "^15.7.2"
     uncontrollable "^7.2.1"
     warning "^4.0.3"
+
+react-particles-js@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-3.5.3.tgz#5fa8912cd3317061e4d31ed7743d331d9d7f2afe"
+  integrity sha512-e9GWBT51WDtPkcaSy0ZLUAT93lBzDvuqrfW81NOf6G69XSurgCtVy4+ZYpUCnLhZgkokzsjrhtVOSj1FxPVyEw==
+  dependencies:
+    lodash "^4.17.11"
 
 react-refresh@^0.8.3:
   version "0.8.3"
@@ -11293,6 +11300,14 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typewriter-effect@^2.18.0:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/typewriter-effect/-/typewriter-effect-2.18.0.tgz#2d1bb90938b5b99d491baf9273418542e5c34854"
+  integrity sha512-ULNE79PQTQohBz/4As2ivAHNBG6kyyJu+j1jjVKu8G7+CbIqnePBXR53kTkuEaBk/z+Kz0BOeDmh8N+iNrJIqg==
+  dependencies:
+    prop-types "^15.6.2"
+    raf "^3.4.0"
 
 uncontrollable@^7.2.1:
   version "7.2.1"

@@ -1,43 +1,32 @@
 import React from "react";
-import Typist from "react-typist";
-import Keyboard, { Cursor } from "react-mk";
+import Typewriter from "typewriter-effect";
+import "../css/HeroSection.css"
+// import Particles from "../small/Particle"
+import Particles from 'react-particles-js';
 
 function HeroSection() {
-  const typerStyle = [{ display: "flex", flexDirection: "column" }];
-  const greetStyle = [];
-  const nameStyle = [];
-  const desStyle = [];
-
+  const heroSectionstyle= {}
+  const typeSectionstyles= {}
   return (
-    <div>
-      <Typist style={typerStyle} className='flex justify-center items-center text-center p-3 flex-col'>
-            <span style={greetStyle}> Hey,</span>
-            <Typist.Delay ms={500} />
-            <span style={nameStyle} > I'm Tushar Goyal</span>
-            <Typist.Delay ms={500} />
-            <span style={desStyle}> I'm Developer</span>
-            <Typist.Backspace count={9} delay={200} />
-            <span style={desStyle}>Web Developer.</span>
-            
-        </Typist>
-
-      {/* <Keyboard sentenceDelayPerCharRange={[0, 0]}>
-            Hey,
-      </Keyboard>
-      <Cursor />
-      <br />
-      <Keyboard
-        sentenceDelayPerCharRange={[0, 0]}
-        keyPressDelayRange={[50, 70]}
-      >
-        {({ type }) =>
-          type(
-            3000,
-            "Multiple instances of Keyboard can easily be rendered at the same time"
-          )
-        }
-      </Keyboard> */}
-      
+    <div className=" flex h-screen items-center" style={heroSectionstyle}>
+      <div className="typewritter h-32 text-4xl" style={typeSectionstyles}>
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("Hey!<br/>")
+              .pauseFor(700)
+              .typeString("I'm <span class='name'><b>Tushar Goyal </b> <br/></span>")
+              .pauseFor(700)
+              .typeString("I'm <b> Web Developer</b>")
+              .pauseFor(1500)
+              .deleteChars(13)
+              .typeString("<b> UI/UX Designer</b>.")
+              .start();
+          }}
+        />
+        <Particles/>
+      </div>
+      {/* <button id="contact">Contact me</button> */}
     </div>
   );
 }
