@@ -1,0 +1,30 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Zen{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.sideheader{
+    /* background-image: url('../images/bg1.jpg'); */
+    /* background-image: url('../images/bg2.jpg'); */
+    /* background-image: url('../images/bg3.jpg'); */
+    /* background-image: url('../images/bg4.png'); */
+    background-image: url('../images/bg42.png');
+    /* background-image: url('../images/bg4.jpg'); */
+    /* background-image: url('../images/bg5.jpg'); */
+    /* background-position: bottom; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 
+    -2px 2px 3px rgb(0, 247, 255);    
+}
+
+
+
+.rightbar{
+    /* background-color: red; */
+    min-height: 100vh;
+}
