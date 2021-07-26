@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import "../css/HeroSection.css"
 // import Particles from "../small/Particle"
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 
 function HeroSection() {
   const heroSectionstyle= {}
@@ -24,7 +24,7 @@ function HeroSection() {
               .start();
           }}
         />
-        <Particles/>
+        {/* <Particles/> */}
       </div>
       {/* <button id="contact">Contact me</button> */}
     </div>

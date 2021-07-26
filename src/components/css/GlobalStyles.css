@@ -24,16 +24,23 @@
     -2px 2px 3px red;    
 }
 
+.imagediv{
+    /* background-image: url('../images/myphoto2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; */
 
+}
 
 .rightbar{
-    /* background-image: url('../images/darkwallpaper.jpg'); */
-    /* background-image: url('../images/bg42.png'); */
+    /* background-color: #171717; */
+    /* background-image: url('../images/bgimage.svg'); */
+    /* background-image: url('../images/bgimage2.svg'); */
+    background-image: url('../images/bgimage3.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: bottom; */
-    /* background-color: white; */
+    background-size: cover; 
+    
     min-height: 100vh;
 
 }

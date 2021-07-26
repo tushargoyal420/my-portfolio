@@ -6,10 +6,12 @@ function App() {
   return (
     <div className="App">
       <SideHeader />
+      <div className="imagediv">
       <div className="rightbar pl-40">
         <Switch>
           <Route exact path="/" component={Homepage} />
         </Switch>
+      </div>
       </div>
     </div>
   );
