@@ -1,46 +1,24 @@
 *{
     font-family: 'Titillium Web', sans-serif;
+    background-color: #171717;
+    color: white;
 }
 
 .Zen{
     font-family: 'Zen Tokyo Zoo', cursive;
 }
 
-.sideheader{
-    /* background-color: rgba(153, 0, 255, 0.404); */
-    background-image: url('../images/bg42.png');
-    /* background-image: url('../images/bg1.jpg'); */
-    /* background-image: url('../images/bg2.jpg'); */
-    /* background-image: url('../images/bg3.jpg'); */
-    /* background-image: url('../images/bg4.png'); */
-    /* background-image: url('../images/bg4.jpg'); */
-    /* background-image: url('../images/bg5.jpg'); */
-    /* background-position: bottom; */
-    /* background-position: center; */
+/* .sideheader{
+    background-image: url("../images/rightbarimage.svg");
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
+} */
+.leftbar{
     text-shadow: 
     /* -2px 2px 3px rgb(0, 247, 255);     */
     -2px 2px 3px red;    
-}
-
-.imagediv{
-    /* background-image: url('../images/myphoto2.png');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain; */
-
-}
-
-.rightbar{
     /* background-color: #171717; */
-    /* background-image: url('../images/bgimage.svg'); */
-    /* background-image: url('../images/bgimage2.svg'); */
-    background-image: url('../images/bgimage3.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    
-    min-height: 100vh;
-
+    /* color: white; */
+    /* min-height: 100vh; */
 }

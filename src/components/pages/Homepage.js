@@ -4,7 +4,7 @@ import HeroSection from './HeroSection'
 function Homepage() {
     return (
         <div>
-            <HeroSection/>
+            {/* <HeroSection/> */}
         </div>
     )
 }
