@@ -1,3 +1,15 @@
 .name{
-    color:red;
+    text-shadow: -0px -0px #ff0000;
+    font-family: 'Segoe UI';
+    color: red;
+    font-weight: 700;
+}
+
+.para{
+    font-family: 'Segoe UI';
+    font-size: 43px;
+    line-height: 70px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: -4px -2px #ff0000;
 }

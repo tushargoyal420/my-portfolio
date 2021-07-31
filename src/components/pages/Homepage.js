@@ -1,10 +1,12 @@
 import React from 'react'
-import HeroSection from './HeroSection'
-
+// import Particle from '../small/Particle'
+import HeroSection from '../sections/HeroSection'
+// import '../small/Particle'
 function Homepage() {
+    
     return (
         <div>
-            {/* <HeroSection/> */}
+            <HeroSection/>
         </div>
     )
 }
